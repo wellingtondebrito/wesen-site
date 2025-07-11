@@ -1,13 +1,12 @@
-import Header from "./ui/header";
-import AboutSection from "./ui/aboutSection";
-import Services from "./ui/servicesSection";
-import Methodology from "./ui/methodSection";
-import Portfolio from "./ui/portfolioSection";
+import Header from "./ui/Header";
+import Methodology from "./ui/Methodology";
+import Portfolio from "./ui/Portfolio";
 import OurValues from "./ui/ourValues";
-import Contact from "./ui/contact";
-import Footer from "./ui/footer";
-import HeroSection from "./ui/heroSection";
-
+import Contact from "./ui/Contact";
+import Footer from "./ui/Footer";
+import Hero from "./ui/Hero";
+import About from "./ui/About";
+import ServicesSection from "./ui/ServicesSection";
 
 export default function Home() {
   return (
@@ -15,19 +14,16 @@ export default function Home() {
       <Header />
       <main className=" bg-[#1F2937]">
         {/* Hero Section */}
-       <HeroSection/>
-
+        <Hero/>
         {/* about section */}
-        <AboutSection />
-
+        <About/>
         {/* Services Section */}
-        <Services />
-
+        <ServicesSection />
         <Methodology />
-        <Portfolio/>
-        <OurValues/>
-        <Contact/>
-        <Footer/>
+        <Portfolio />
+        <OurValues />
+        <Contact />
+        <Footer />
       </main>
     </>
   );

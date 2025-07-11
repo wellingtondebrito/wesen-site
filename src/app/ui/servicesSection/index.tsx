@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Services() {
+export default function ServicesSection() {
   return (
     <section className="py-24">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 ">
