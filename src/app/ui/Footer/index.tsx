@@ -2,22 +2,22 @@ import {
   Instagram,
   Linkedin,
   Github,
-} from "lucide-react"
+} from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1E1E1E] text-white py-6 px-4">
-      <div className="max-w-screen-xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+    <footer className="bg-[#1E1E1E] text-white py-6 px-4" aria-label="Rodapé">
+      <div className="max-w-screen-xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6 sm:gap-4">
         
         {/* Redes sociais */}
-        <div>
+        <div className="text-center sm:text-left">
           <p className="text-sm mb-2 sm:mb-0">Nossas redes:</p>
-          <div className="flex items-center gap-4">
+          <div className="flex justify-center sm:justify-start items-center gap-4">
             <a
               href="https://instagram.com/seuperfil"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Instagram"
+              aria-label="Instagram da Wesen Technologies"
               className="hover:text-blue-400 transition-colors"
             >
               <Instagram className="w-5 h-5" />
@@ -26,7 +26,7 @@ export default function Footer() {
               href="https://linkedin.com/in/seuperfil"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="LinkedIn"
+              aria-label="LinkedIn da Wesen Technologies"
               className="hover:text-blue-400 transition-colors"
             >
               <Linkedin className="w-5 h-5" />
@@ -35,7 +35,7 @@ export default function Footer() {
               href="https://github.com/seuusuario"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="GitHub"
+              aria-label="GitHub da Wesen Technologies"
               className="hover:text-blue-400 transition-colors"
             >
               <Github className="w-5 h-5" />
@@ -44,10 +44,10 @@ export default function Footer() {
         </div>
 
         {/* Direitos autorais */}
-        <p className="text-xs text-zinc-400">
-          © Wesen Technologies | {new Date().getFullYear()}
+        <p className="text-xs text-center sm:text-right text-zinc-400">
+          © {new Date().getFullYear()} Wesen Technologies. Todos os direitos reservados.
         </p>
       </div>
     </footer>
-  )
+  );
 }
