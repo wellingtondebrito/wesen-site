@@ -42,24 +42,23 @@ export default function Methodology() {
   const [etapaAtiva, setEtapaAtiva] = useState(etapas[0]);
 
   return (
-    <section className="bg-zinc-900 text-white px-4 py-20">
+    <section className="bg-[#1E1E1E] text-white px-4 py-20">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 ">
         <h2 className="text-3xl font-bold mb-12">
           Nossa metodologia
         </h2>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 border border-[#464444] rounded p-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 border border-[#78909C] rounded p-4">
           {/* Etapas à esquerda */}
           <div className="space-y-4">
             {etapas.map((etapa) => (
               <button
                 key={etapa.id}
                 onClick={() => setEtapaAtiva(etapa)}
-                className={`w-full text-left border flex items-center justify-center border-zinc-700 p-6 rounded-lg transition-all
+                className={`w-full text-left border flex items-center justify-center p-6 rounded-lg transition-all
                   aria-pressed:=${
                     etapaAtiva.id === etapa.id
-                      ? "bg-zinc-800 border-blue-500 text-white"
-                      : "bg-zinc-700 text-zinc-300 hover:bg-zinc-600"
+                      ? "bg-[#464444] border-[#78909C] text-white"
+                      : "border-[#78909C] text-zinc-300 hover:bg-zinc-600"
                   }`}
               >
                 <span className="flex flex-shrink-0 items-center justify-center h-[166px] p-2 mr-4">

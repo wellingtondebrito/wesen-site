@@ -8,7 +8,7 @@ export default function Services() {
           Nossas soluções
         </h2>
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8">
-          <div className="max-h-[416px] border border-gray-100 rounded flex items-center flex-col justify-around p-4 gap-6">
+          <div className="max-h-[416px] border border-[#78909C] rounded flex items-center flex-col justify-around p-4 gap-6">
             <Image
               src="/sites.svg"
               alt="Criação de Sites"
@@ -24,13 +24,13 @@ export default function Services() {
               profissional.
             </p>
             <a
-              className="inline-block rounded bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-700"
+              className="inline-block rounded bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] px-5 py-3 font-medium text-white hover:bg-indigo-700  shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
               href="#"
             >
               Agende uma reunião
             </a>
           </div>
-          <div className="max-h-[416px] border border-gray-100 rounded flex items-center justify-around flex-col p-4 gap-6">
+          <div className="max-h-[416px] border border-[#78909C] rounded flex items-center justify-around flex-col p-4 gap-6">
             <Image
               src="/mobile.svg"
               alt="Criação de aplicativos mobile"
@@ -45,13 +45,13 @@ export default function Services() {
               público com fluidez, design moderno e performance.
             </p>
             <a
-              className="inline-block rounded bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-700"
+              className="inline-block rounded bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] px-5 py-3 font-medium text-white hover:bg-indigo-700  shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
               href="#"
             >
               Agende uma reunião
             </a>
           </div>
-          <div className="max-h-[416px] border border-gray-100 rounded flex items-center justify-around flex-col p-4 gap-6">
+          <div className="max-h-[416px] border border-[#78909C] rounded flex items-center justify-around flex-col p-4 gap-6">
             <Image
               src="/bots.svg"
               alt="Criação de bots e integrações"
@@ -66,13 +66,13 @@ export default function Services() {
               e plataformas web. Reduza custos e ganhe produtividade.
             </p>
             <a
-              className="inline-block rounded bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-700"
+              className="inline-block rounded bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] px-5 py-3 font-medium text-white hover:bg-indigo-700  shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
               href="#"
             >
               Agende uma reunião
             </a>
           </div>
-          <div className="max-h-[416px] border border-gray-100 rounded flex items-center justify-around flex-col p-4 gap-6">
+          <div className="max-h-[416px] border border-[#78909C] rounded flex items-center justify-around flex-col p-4 gap-6">
             <Image
               src="/softwares.svg"
               alt="Criação de sistemas completos"
@@ -86,7 +86,7 @@ export default function Services() {
              Automatize processos com sistemas feitos sob medida para sua operação. Integrados, intuitivos e seguros.
             </p>
             <a
-              className="inline-block rounded border border-indigo-600 bg-indigo-600 px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-700"
+              className="inline-block rounded bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] px-5 py-3 font-medium text-white hover:bg-indigo-700  shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
               href="#"
             >
               Agende uma reunião

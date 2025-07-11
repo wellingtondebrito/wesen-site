@@ -1,29 +1,44 @@
-import Typewriter from "@/app/ui/animation/typewriter";
+import Image from "next/image";
 
-export default function HeroSection() {
+export default function Hero() {
   return (
-    <section className="bg-[#1F2937] lg:grid lg:h-screen lg:place-content-center  py-24">
-      <div className="mx-auto w-screen max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
-        <div className="mx-auto max-w-prose text-center md:max-w-prose">
-          <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl dark:text-white">
-            <strong className="bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] bg-clip-text text-transparent">Soluções Digitais</strong> Sob
-            Medida para o Seu Negócio
-          </h1>
+    <section className="bg-[#1c2431] text-white py-24 px-4 text-center">
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
+          <span className="text-transparent bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] bg-clip-text">
+            Soluções Digitais
+          </span>{" "}
+          Sob Medida para o Seu Negócio
+        </h1>
 
-          <p className="mt-4 text-base text-pretty text-gray-700 sm:text-lg/relaxed dark:text-gray-200">
-            Sites, aplicativos, sistemas e bots criados com foco em inovação,
-            performance e crescimento.
-          </p>
+        <p className="mt-6 text-base sm:text-lg text-gray-300 max-w-xl mx-auto">
+          Sites, aplicativos, sistemas e bots criados com foco em inovação, performance e crescimento.
+        </p>
 
-          <div className="mt-4 flex justify-center gap-4 sm:mt-6">
-            <a
-              className="inline-block rounded  bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-700"
-              href="#"
-            >
-             Entrar em contato
-            </a>
-          </div>
-        </div>
+        <a
+          href="#contato"
+          className="inline-block mt-6 bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] text-white font-semibold px-6 py-3 rounded-md shadow-md hover:scale-105 transition-transform"
+        >
+          Entrar em contato
+        </a>
+      </div>
+
+      {/* Ícones de tecnologias */}
+      <div className="mt-12 flex flex-wrap justify-center gap-6 sm:gap-8 px-4">
+        {/* Substitua pelos seus ícones */}
+        {[
+          "css", "html", "graphql", "java", "javascript", "kotlin",
+          "mongodb", "nextjs", "react", "spring", "sql", "sqlite", "typescript"
+        ].map((tech, idx) => (
+          <Image
+            key={idx}
+            src={`/icons/${tech}.svg`} // certifique-se de ter essas imagens em /public/icons
+            alt={`Ícone ${tech}`}
+            width={48}
+            height={48}
+            className="opacity-80 hover:opacity-100 transition-opacity w-12 h-12 sm:w-14 sm:h-14"
+          />
+        ))}
       </div>
     </section>
   );
