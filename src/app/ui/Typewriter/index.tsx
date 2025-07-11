@@ -11,7 +11,7 @@ export default function Typewriter() {
 
   useEffect(() => {
     const phrase = phrases[index]
-    let timeout = setTimeout(() => {
+    const timeout = setTimeout(() => {
       const nextText = deleting
         ? phrase.slice(0, text.length - 1)
         : phrase.slice(0, text.length + 1)
