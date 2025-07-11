@@ -1,6 +1,6 @@
 import Typewriter from "@/app/ui/Typewriter";
 import Image from "next/image";
-export default function AboutSection() {
+export default function About() {
   return (
     <section className="bg-[#111827] text-white px-4 py-20">
       <div className="max-w-[1440px] mb-4 mx-auto grid grid-cols-1 lg:grid-cols-2  items-center">
