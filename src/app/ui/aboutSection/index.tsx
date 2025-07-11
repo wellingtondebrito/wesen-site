@@ -1,4 +1,4 @@
-import Typewriter from "@/app/ui/animation/typewriter";
+import Typewriter from "@/app/ui/Typewriter";
 import Image from "next/image";
 export default function AboutSection() {
   return (

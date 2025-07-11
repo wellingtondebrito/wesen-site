@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Hero() {
+export default function HeroSection() {
   return (
     <section className="bg-[#1c2431] text-white py-24 px-4 text-center">
       <div className="max-w-4xl mx-auto">
