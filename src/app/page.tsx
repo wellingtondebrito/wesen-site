@@ -10,11 +10,8 @@ import ServicesSection from "./ui/ServicesSection";
 export default function Home() {
   return (
       <main className=" bg-[#1F2937]">
-        {/* Hero Section */}
         <Hero/>
-        {/* about section */}
         <About/>
-        {/* Services Section */}
         <ServicesSection/>
         <Methodology/>
         <Portfolio/>

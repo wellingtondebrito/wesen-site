@@ -1,6 +1,5 @@
 import {
   Instagram,
-  Linkedin,
   Github,
 } from "lucide-react";
 
@@ -22,15 +21,7 @@ export default function Footer() {
             >
               <Instagram className="w-5 h-5" />
             </a>
-            <a
-              href="https://linkedin.com/in/seuperfil"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="LinkedIn da Wesen Technologies"
-              className="hover:text-blue-400 transition-colors"
-            >
-              <Linkedin className="w-5 h-5" />
-            </a>
+           
             <a
               href="https://github.com/seuusuario"
               target="_blank"

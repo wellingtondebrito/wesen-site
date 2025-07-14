@@ -49,8 +49,10 @@ export default function BriefingForm() {
       });
       setSuccess(true);
       setErrors({});
-    } catch (err) {
+    } catch (e) {
+      console.log(e)
       setErrorGlobal(true);
+      
     }
   };
 
