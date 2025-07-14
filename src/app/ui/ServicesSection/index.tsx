@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ServicesSection() {
   return (
@@ -35,12 +36,12 @@ export default function ServicesSection() {
               Ideal para empresas que querem se destacar online com uma presença
               profissional.
             </p>
-            <a
-              href="#contato"
+            <Link
+              href="/contato"
               className="inline-block rounded bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] px-5 py-3 font-medium text-white hover:bg-indigo-700 shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
             >
               Agende uma reunião
-            </a>
+            </Link>
           </article>
 
           {/* Item 2 */}
@@ -61,12 +62,12 @@ export default function ServicesSection() {
               Criamos aplicativos para Android e iOS que conectam você ao seu
               público com fluidez, design moderno e performance.
             </p>
-            <a
-              href="#contato"
+            <Link
+              href="/contato"
               className="inline-block rounded bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] px-5 py-3 font-medium text-white hover:bg-indigo-700 shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
             >
               Agende uma reunião
-            </a>
+            </Link>
           </article>
 
           {/* Item 3 */}
@@ -87,12 +88,12 @@ export default function ServicesSection() {
               Automatizamos tarefas repetitivas com bots para WhatsApp, Telegram
               e plataformas web. Reduza custos e ganhe produtividade.
             </p>
-            <a
-              href="#contato"
+            <Link
+              href="/contato"
               className="inline-block rounded bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] px-5 py-3 font-medium text-white hover:bg-indigo-700 shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
             >
               Agende uma reunião
-            </a>
+            </Link>
           </article>
 
           {/* Item 4 */}
@@ -115,12 +116,12 @@ export default function ServicesSection() {
             <p className="font-sans">
               Automatize processos com sistemas feitos sob medida para sua operação. Integrados, intuitivos e seguros.
             </p>
-            <a
-              href="#contato"
+            <Link
+              href="/contato"
               className="inline-block rounded bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] px-5 py-3 font-medium text-white hover:bg-indigo-700 shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
             >
               Agende uma reunião
-            </a>
+            </Link>
           </article>
         </div>
       </div>
