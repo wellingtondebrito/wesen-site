@@ -3,6 +3,7 @@ import { Lexend, Lexend_Exa } from "next/font/google";
 import "./globals.css";
 import Header from "./ui/Header";
 import Footer from "./ui/Footer";
+import WhatsAppButton from "./ui/Components/WhatsappButton";
 
 const lexendSans = Lexend({
   variable: "--font-lexend-sans",
@@ -72,6 +73,7 @@ export default function RootLayout({
       >
         <Header/>
         {children}
+        <WhatsAppButton/>
         <Footer/>
       </body>
     </html>

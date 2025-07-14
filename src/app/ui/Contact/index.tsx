@@ -33,7 +33,7 @@ export default function Contact() {
           descoberta do seu projeto!
         </p>
         <Link
-          href="https://wa.me/5599999999999" // Troque pelo seu número real
+          href="https://wa.me/5547992217503" // Troque pelo seu número real
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Abrir WhatsApp para falar com a WeSen Technologies"
