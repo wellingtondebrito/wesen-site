@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 
 export default function Typewriter() {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const phrases = ['Propósito', 'e Resultado.']
 
   const [text, setText] = useState('')
@@ -27,7 +28,7 @@ export default function Typewriter() {
     }, deleting ? 50 : 100)
 
     return () => clearTimeout(timeout)
-  }, [text, deleting])
+  }, [text, deleting, phrases, index])
 
   return (
     <div className="font-sans font-bold text-center sm:text-left max-w-[90%] sm:max-w-lg mx-auto sm:mx-0">
