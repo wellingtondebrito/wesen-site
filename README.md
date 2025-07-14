@@ -81,3 +81,4 @@ npm run dev
 
 🌐 Deploy
 O site está hospedado gratuitamente na Vercel. Para fazer o deploy, basta conectar o repositório e definir as variáveis de ambiente no painel da Vercel.
+https://wesen-site.vercel.app/
