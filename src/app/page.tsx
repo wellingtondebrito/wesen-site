@@ -11,8 +11,6 @@ import ServicesSection from "./ui/ServicesSection";
 
 export default function Home() {
   return (
-    <>
-      <Header/>
       <main className=" bg-[#1F2937]">
         {/* Hero Section */}
         <Hero/>
@@ -24,8 +22,6 @@ export default function Home() {
         <Portfolio/>
         <OurValues/>
         <Contact/>
-       <Footer/>
       </main>
-    </>
   );
 }

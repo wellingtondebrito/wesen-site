@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Lexend, Lexend_Exa } from "next/font/google";
 import "./globals.css";
+import Header from "./ui/Header";
+import Footer from "./ui/Footer";
 
 const lexendSans = Lexend({
   variable: "--font-lexend-sans",
@@ -68,7 +70,9 @@ export default function RootLayout({
       <body
         className={`${lexendSans.variable} ${lexendMono.variable} antialiased`}
       >
+        <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

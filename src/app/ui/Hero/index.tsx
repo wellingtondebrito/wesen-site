@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -22,13 +23,13 @@ export default function Hero() {
           performance e crescimento.
         </p>
 
-        <a
-          href="#contato"
+        <Link
+          href="/contato"
           className="inline-block mt-6 bg-gradient-to-b from-[#3b82f6] via-[#573BF6] to-[#573BF6] text-white font-semibold px-6 py-3 rounded-md shadow-md hover:scale-105 transition-transform"
           aria-label="Ir para seção de contato"
         >
           Entrar em contato
-        </a>
+        </Link>
       </header>
 
       {/* Ícones de tecnologias */}
