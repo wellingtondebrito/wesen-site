@@ -1,7 +1,5 @@
 import About from "./ui/About";
 import Contact from "./ui/Contact";
-import Footer from "./ui/Footer";
-import Header from "./ui/Header";
 import Hero from "./ui/Hero";
 import Methodology from "./ui/Methodology";
 import OurValues from "./ui/OurValues";
